@@ -1,0 +1,79 @@
+/* Start Reset Page */
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #272b30;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 6250rem;
+  background-color: #0D0D0D;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF; /* لون الروابط */
+}
+
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; /* لون خلفية الجدول */
+  border: 1px solid #ccc; /* لون حدود الجدول */
+}
+
+table th, table td {
+  border: 1px solid #ccc; /* لون حدود الخلايا */
+  padding: 12px; /* تباعد النص داخل الخلايا */
+  text-align: left; /* محاذاة النص إلى اليسار */
+}
+
+table th {
+  background-color: #007BFF; /* لون خلفية رأس الجدول */
+  color: white; /* لون النص في رأس الجدول */
+}
+
+/* Canvas styles */
+canvas {
+  max-width: 400px;
+  max-height: 200px;
+  border: 1px solid #ccc; /* لون حدود الرسم البياني */
+  margin-bottom: 20px;
+}
